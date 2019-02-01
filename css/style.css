@@ -1,0 +1,148 @@
+
+body   {
+    background-color: lightgray;
+}
+
+.container  {
+    max-width: 60%;
+    min-width: 380px;
+    margin: auto;
+    color: grey;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+}
+tr {
+    font-family: 'Monserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+}
+
+td {
+    font-family: 'Monserrat', sans-serif;
+    min-width: 2%;
+}
+
+h1  {
+    font-family: "Monserrat", sans-serif;
+    color: red;
+}
+
+h2,h3  {
+    font-family: 'Monserrat', sans-serif;
+}
+
+p   {
+    text-align: justify;
+}
+
+.justtim    {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.core  {
+    margin: 2% 0;
+    background-color: white;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 30px;
+    border-radius: 1%;
+    box-shadow: 0px 1px 5px 1px rgb(180, 180, 180);
+}
+
+#tim    {
+    border-radius: 100%;
+    border: 5px solid rgb(200, 200, 200);
+    display: block;             /* Display: block + margin left & right en auto pour centrer la photo en mode responsive */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#wiki {
+    color: white;
+    background-color: rgb(220,0,0);
+    border: 1px solid rgb(120,0,0);
+    padding: 17px;
+    border-radius: 4%;
+}
+
+#wiki:hover {
+    color: rgb(150, 180, 200);
+    background-color: rgb(190, 0, 0);
+    border: 1px solid rgb(100, 0, 0);
+    box-shadow: 0 5px 10px 0 rgb(190, 0, 0);
+}
+
+.links {
+    margin: 2% 0;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 4%;
+    border-radius: 3%;
+    box-shadow: 0px 1px 5px 1px rgb(180, 180, 180);
+}
+
+.linkseffect    {
+    padding: 20px 0px 20px 0px;
+}
+
+table   {
+    padding: 5% 0;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main    {
+    display: inline-block;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 2% 0;
+    padding: 0 5%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+    box-shadow: 0px 1px 5px 1px rgb(180, 180, 180);
+}
+
+.movie  {
+    display: flex;
+    margin: 10% 0;
+}
+
+.cover  {
+    display: flex;
+    height: 200px;
+}
+
+.desc   {
+    display: inline-block;
+    height: 200px;
+    padding: 0% 2% 0% 5%;
+}
+
+
+ .linkseffect a {
+    font-family: 'Monserrat', sans-serif;
+    
+}
+
+a:link  {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:visited   {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+
+a:hover {
+    text-decoration: none;
+    color: lightcoral;
+}
+
